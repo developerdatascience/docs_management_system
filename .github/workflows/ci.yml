@@ -20,6 +20,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install fastapi uvicorn jinja2 pytest pylint black pytest-cov
           pip install sqlalchemy
+          pip install torchvision torchaudio
       - name: Lint with pylint
         run: |
           pylint app || exit 1
