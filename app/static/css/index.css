@@ -129,5 +129,5 @@
 
 .nav-items a:hover {
     background-color: #a3a3a3;
-    color: #1A1F2E;
+    color: var(--color-menu-item-seclected);
 }
